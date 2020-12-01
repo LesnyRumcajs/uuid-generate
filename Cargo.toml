@@ -1,8 +1,15 @@
 [package]
-name = "uuid-generator"
+name = "uuid-generate"
 version = "0.1.0"
 authors = ["LesnyRumcajs <LesnyRumcajs@users.noreply.github.com>"]
 edition = "2018"
+
+license = "MIT"
+repository = "https://github.com/LesnyRumcajs/uuid-generate"
+
+description = "UUID generator"
+keywords = ["uuid", "unique", "guid"]
+categories = ["Command line utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -16,6 +23,6 @@ structopt = "0.3"
 uuid = { version = "0.8", features = ["v4"] }
 
 [[bin]]
-name = "uuid-generator"
+name = "uuid-generate"
 path = "src/bin/generator.rs"
 
