@@ -10,9 +10,8 @@ struct GeneratorSettings {
 }
 fn main() {
     let opt = GeneratorSettings::from_args();
-    let uuid = Uuid::new_v4();
 
     for _ in 0..opt.uuid_count {
-        println!("{}", uuid);
+        println!("{}", Uuid::new_v4());
     }
 }
