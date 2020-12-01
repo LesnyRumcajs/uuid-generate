@@ -1,0 +1,21 @@
+[package]
+name = "uuid-generator"
+version = "0.1.0"
+authors = ["LesnyRumcajs <LesnyRumcajs@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[profile.release]
+opt-level = 3
+codegen-units = 1
+lto = true
+
+[dependencies]
+structopt = "0.3"
+uuid = { version = "0.8", features = ["v4"] }
+
+[[bin]]
+name = "uuid-generator"
+path = "src/bin/generator.rs"
+
