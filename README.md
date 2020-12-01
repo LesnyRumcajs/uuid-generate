@@ -14,5 +14,6 @@ FLAGS:
     -V, --version    Prints version information
 
 OPTIONS:
+    -d <delimiter>         Delimiter (if n > 1) [default: ,]
     -n <uuid-count>        Number of UUIDs to generate [default: 1]
 ```

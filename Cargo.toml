@@ -1,6 +1,6 @@
 [package]
 name = "uuid-generate"
-version = "0.1.2"
+version = "0.1.4"
 authors = ["LesnyRumcajs <LesnyRumcajs@users.noreply.github.com>"]
 edition = "2018"
 
@@ -21,6 +21,7 @@ lto = true
 [dependencies]
 structopt = "0.3"
 uuid = { version = "0.8", features = ["v4"] }
+itertools = "0.9"
 
 [[bin]]
 name = "uuid-generate"

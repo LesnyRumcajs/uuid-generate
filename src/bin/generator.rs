@@ -1,3 +1,4 @@
+use itertools::Itertools;
 use structopt::StructOpt;
 use uuid::Uuid;
 
@@ -7,11 +8,13 @@ struct GeneratorSettings {
     /// Number of UUIDs to generate
     #[structopt(short = "n", default_value = "1")]
     uuid_count: usize,
+    /// Delimiter (if n > 1)
+    #[structopt(short = "d", default_value = ",")]
+    delimiter: String,
 }
 fn main() {
     let opt = GeneratorSettings::from_args();
 
-    for _ in 0..opt.uuid_count {
-        println!("{}", Uuid::new_v4());
-    }
+    let uuids = (0..opt.uuid_count).map(|_| Uuid::new_v4());
+    print!("{}", uuids.into_iter().join(&opt.delimiter))
 }
