@@ -2,7 +2,7 @@
 Simple UUID generator (currently generates only v4s)
 
 # Installation
-cargo install uuid-generate
+`cargo install uuid-generate`
 
 # Usage
 ```
