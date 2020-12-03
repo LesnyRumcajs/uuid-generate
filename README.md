@@ -1,4 +1,4 @@
-![build](https://github.com/LesnyRumcajs/uuid-generate/workflows/build/badge.svg)
+![build](https://github.com/LesnyRumcajs/uuid-generate/workflows/build/badge.svg?branch=main)
 [![Build Status](http://meritbadge.herokuapp.com/uuid-generate)](https://crates.io/crates/uuid-generate/)
 
 ## UUID generator
