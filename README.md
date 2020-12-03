@@ -1,4 +1,4 @@
-[![Build Status](http://meritbadge.herokuapp.com/uuid-generate)](https://crates.io/crates/wakey/)
+[![Build Status](http://meritbadge.herokuapp.com/uuid-generate)](https://crates.io/crates/uuid-generate/)
 
 ## UUID generator
 Simple UUID generator (currently generates only v4s)
