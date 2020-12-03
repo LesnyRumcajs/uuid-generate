@@ -24,8 +24,8 @@ OPTIONS:
 # Sample
 ```
 ❯ uuid-generate
-3cf40924-18f2-4c1d-be76-1c38810d93c8⏎                                                   
-~
+3cf40924-18f2-4c1d-be76-1c38810d93c8
+
 ❯ uuid-generate -n 2 -d '|'
 25353496-39c5-4d8c-a0bf-89008c0719e0|afa2b724-0d55-4931-acbe-45ea0ff83708
 ```
